@@ -23,7 +23,6 @@ public class KnightTour {
 		else {
 			System.out.println("No path exists");
 		}
-		
 	}
 	
 	private static void printBoard(int[][] board, int boardSize) {
