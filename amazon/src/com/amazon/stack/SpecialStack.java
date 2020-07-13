@@ -3,6 +3,10 @@ package com.amazon.stack;
 import java.util.Stack;
 
 public class SpecialStack extends Stack<Integer> {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1380752713166080551L;
 	Stack<Integer> min = new Stack<Integer>();
 	
 	void push(int x) {
@@ -13,18 +17,18 @@ public class SpecialStack extends Stack<Integer> {
 			super.push(x);
 			int y = min.pop();
 			min.push(y);
-			if(x < y) {
+			if(x <= y) {
 				min.push(x);
-			}
-			else {
-				min.push(y);
 			}
 		}
 	}
 	
 	public Integer pop() {
 		int x = super.pop();
-		min.pop();
+		int y = min.pop();
+		
+		if(y != x)
+			min.push(y);
 		return x;
 	}
 	
