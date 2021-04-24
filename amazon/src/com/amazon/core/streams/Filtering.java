@@ -21,3 +21,4 @@ public class Filtering {
 		dishesSkip2.forEach(System.out::println);
 	}
 }
+ 	
