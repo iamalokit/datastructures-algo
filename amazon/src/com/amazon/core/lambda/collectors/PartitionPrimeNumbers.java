@@ -1,4 +1,4 @@
-package com.amazon.core.lambda;
+package com.amazon.core.lambda.collectors;
 
 import java.util.*;
 import java.util.function.*;
