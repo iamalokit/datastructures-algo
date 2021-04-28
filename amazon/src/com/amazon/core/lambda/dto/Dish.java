@@ -1,4 +1,4 @@
-package com.amazon.core.lambda;
+package com.amazon.core.lambda.dto;
 
 import java.util.Arrays;
 import java.util.List;

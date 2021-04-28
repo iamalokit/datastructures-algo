@@ -1,4 +1,4 @@
-package com.amazon.core.lambda;
+package com.amazon.core.lambda.dto;
 
 public class Apple {
 	private int weight = 0;
