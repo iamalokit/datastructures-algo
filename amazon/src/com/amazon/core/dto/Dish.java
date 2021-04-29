@@ -1,4 +1,4 @@
-package com.amazon.core.streams.dto;
+package com.amazon.core.dto;
 
 import java.util.Arrays;
 import java.util.List;

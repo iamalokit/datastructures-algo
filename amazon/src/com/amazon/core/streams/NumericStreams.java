@@ -6,7 +6,7 @@ import java.util.OptionalInt;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import com.amazon.core.streams.dto.Dish;
+import com.amazon.core.dto.Dish;
 
 
 public class NumericStreams {

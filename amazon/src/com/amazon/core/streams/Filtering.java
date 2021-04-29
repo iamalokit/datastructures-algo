@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.amazon.core.streams.dto.Dish;
+import com.amazon.core.dto.Dish;
 
 
 public class Filtering {

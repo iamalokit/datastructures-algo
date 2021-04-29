@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 
-import com.amazon.core.lambda.dto.Apple;
+import com.amazon.core.dto.Apple;
 
 public class FilteringApples {
 	public static void main(String... args) {

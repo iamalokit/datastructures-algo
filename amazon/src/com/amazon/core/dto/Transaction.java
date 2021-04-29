@@ -1,4 +1,4 @@
-package com.amazon.core.streams.dto;
+package com.amazon.core.dto;
 
 public class Transaction {
 	private Trader trader;

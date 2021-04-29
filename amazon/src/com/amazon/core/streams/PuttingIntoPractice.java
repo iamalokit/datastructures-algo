@@ -5,8 +5,8 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.amazon.core.streams.dto.Trader;
-import com.amazon.core.streams.dto.Transaction;
+import com.amazon.core.dto.Trader;
+import com.amazon.core.dto.Transaction;
 
 public class PuttingIntoPractice {
 	public static void main(String... args) {

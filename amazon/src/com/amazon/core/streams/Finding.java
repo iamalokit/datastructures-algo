@@ -2,7 +2,7 @@ package com.amazon.core.streams;
 
 import java.util.Optional;
 
-import com.amazon.core.streams.dto.Dish;
+import com.amazon.core.dto.Dish;
 
 
 public class Finding {

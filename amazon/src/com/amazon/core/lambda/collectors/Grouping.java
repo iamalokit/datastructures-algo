@@ -6,7 +6,7 @@ import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import com.amazon.core.lambda.dto.Dish;
+import com.amazon.core.dto.Dish;
 
 public class Grouping {
 	enum CaloricLevel {

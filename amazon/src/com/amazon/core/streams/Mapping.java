@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.amazon.core.lambda.dto.Dish;
+import com.amazon.core.dto.Dish;
 
 
 public class Mapping {
