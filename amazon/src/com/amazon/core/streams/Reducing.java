@@ -4,7 +4,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-import com.amazon.core.lambda.Dish;
+import com.amazon.core.streams.dto.Dish;
+
 
 public class Reducing {
 	public static void main(String[] args) {
